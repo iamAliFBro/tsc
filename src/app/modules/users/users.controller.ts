@@ -72,6 +72,7 @@ const getSingleUser = async (req: Request, res: Response) => {
   }
 };
 
+//update user
 const updateUser = async (req: Request, res: Response) => {
   try {
     const updatedData = req.body;
