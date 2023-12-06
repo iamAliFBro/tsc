@@ -3,6 +3,8 @@ import { Request, Response } from "express";
 import userValidationSchema from "./users.validation";
 import { UserServices } from "./users.services";
 
+
+//create user
 const createUser = async (req: Request, res: Response) => {
   try {
     const userData = req.body;
