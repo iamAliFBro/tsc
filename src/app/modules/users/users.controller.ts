@@ -140,6 +140,7 @@ const createOrder = async (req: Request, res: Response) => {
   }
 };
 
+//getallsuers orders
 const getUserAllOrders = async (req: Request, res: Response) => {
   try {
     const { userId } = req.params;
