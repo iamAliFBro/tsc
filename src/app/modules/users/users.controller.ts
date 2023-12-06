@@ -49,7 +49,7 @@ const getAllUser = async (req: Request, res: Response) => {
     });
   }
 };
-
+//get single user
 const getSingleUser = async (req: Request, res: Response) => {
   try {
     const { userId } = req.params;
