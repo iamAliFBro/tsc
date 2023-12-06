@@ -1,6 +1,7 @@
 import dotenv from "dotenv";
 import path from "path";
 
+//env config file
 dotenv.config({
   path: path.join((process.cwd(), ".env")),
 });
