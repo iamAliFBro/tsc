@@ -164,6 +164,7 @@ const getUserAllOrders = async (req: Request, res: Response) => {
   }
 };
 
+//order total 
 const calculateUserOrder = async (req: Request, res: Response) => {
   try {
     const { userId } = req.params;
